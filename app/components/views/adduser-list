@@ -1,0 +1,62 @@
+import React from 'react';
+import { Link } from 'react-router';
+
+// Using "Stateless Functional Components"
+export default function(props) {
+
+
+return (
+      <div className="form-container">
+        
+        <form ref='user_form' onSubmit={this._onSubmit}>
+        
+          <div className={this._formGroupClass(this.state.errors.name)}>
+            <label className="control-label" for="name">Name </label>
+            <input name="name" ref="name" type="text" className="form-control" id="name" placeholder="Name" onChange={this._onChange} />
+            <span className="help-block">{this.state.errors.name}</span>
+          </div>
+                                           
+          <div className={this._formGroupClass(this.state.errors.github)}>
+            <label className="control-label" for="github">Github</label>
+            <input name="github" ref="github" type="github" className="form-control" id="github" placeholder="Github" onChange={this._onChange} />
+            <span className="help-block">{this.state.errors.github}</span>
+          </div>
+            
+          <div className={this._formGroupClass(this.state.errors.instagram)}>
+            <label className="control-label" for="instagram">Instagram</label>
+            <input name="instagram" ref="instagram" type="instagram" className="form-control" id="instagram" placeholder="Instagram" onChange={this._onChange} />
+            <span className="help-block">{this.state.errors.instagram}</span>
+          </div>
+            
+            
+          <div className={this._formGroupClass(this.state.errors.twitter)}>
+            <label className="control-label" for="twitter">Twitter</label>
+            <input name="twitter" ref="twitter" type="twitter" className="form-control" id="twitter" placeholder="twitter" onChange={this._onChange} />
+            <span className="help-block">{this.state.errors.twitter}</span>
+          </div>
+            
+             <div className={this._formGroupClass(this.state.errors.facebook)}>
+            <label className="control-label" for="facebook">Facebook</label>
+            <input name="facebook" ref="facebook" type="facebook" className="form-control" id="facebook" placeholder="facebook" onChange={this._onChange} />
+            <span className="help-block">{this.state.errors.facebook}</span>
+          </div>
+            
+            <div className={this._formGroupClass(this.state.errors.worksOn)}>
+            <label className="control-label" for="worksOn">WorksOn</label>
+            <input name="worksOn" ref="worksOn" type="worksOn" className="form-control" id="worksOn" placeholder="worksOn" onChange={this._onChange} />
+            <span className="help-block">{this.state.errors.worksOn}</span>
+          </div> 
+            
+            
+            
+            
+            
+            
+          <button type="submit" className="btn btn-default" disabled={this.state.loading}>
+            Create
+          <Loading loading={this.state.loading} /> 
+          </button>
+        </form>
+      </div>
+    );
+    };

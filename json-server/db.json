@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Michael Jackson",
+      "github": "mjackson",
+      "twitter": "mjackson",
+      "instagram": "mjackson",
+      "facebook": "mjackson",
+      "worksOn": "React Router"
+    },
+    {
+      "id": 2,
+      "name": "Ryan Florence",
+      "github": "ryanflorence",
+      "twitter": "ryanflorence",
+      "instagram": "ryanflorence",
+      "facebook": "ryanflorence",
+      "worksOn": "React Router"
+    },
+    {
+      "id": 3,
+      "name": "Dan Abramov",
+      "github": "gaearon",
+      "twitter": "dan_abramov",
+      "instagram": "dan_abramov",
+      "facebook": "dan_abramov",
+      "worksOn": "Redux"
+    },
+    {
+      "id": 4,
+      "name": "Matt Zabriskie",
+      "github": "mzabriskie",
+      "twitter": "mzabriskie",
+      "instagram": "mzabriskie",
+      "facebook": "mzabriskie",
+      "worksOn": "Axios"
+    },
+    {
+      "id": 5,
+      "name": "Tobias Koppers",
+      "github": "sokra",
+      "twitter": "sokra",
+      "instagram": "sokra",
+      "facebook": "sokra",
+      "worksOn": "Webpack"
+    },
+    {
+      "id": 6,
+      "name": "Sebastian McKenzie",
+      "github": "kittens",
+      "twitter": "sebmck",
+      "instagram": "sebmck",
+      "facebook": "sebmck",
+      "worksOn": "Babel"
+    },
+    {
+      "id": 7,
+      "name": "Claude Yu",
+      "github": "sauhungyu",
+      "twitter": "claudeyu",
+      "instagram": "claudeyu",
+      "facebook": "claudeyu.9",
+      "worksOn": "Angular & Babel"
+    },
+    {
+      "id": 8,
+      "name": "Christian Nwamba",
+      "github": "christiannwamba",
+      "twitter": "codebeast",
+      "instagram": "christiannwamba",
+      "facebook": "christiannwamba",
+      "worksOn": "Angular & Babel"
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    }
+  ],
+  "widgets": [
+    {
+      "id": 1,
+      "name": "Widget One"
+    },
+    {
+      "id": 2,
+      "name": "Widget Two"
+    },
+    {
+      "id": 3,
+      "name": "Widget Three"
+    },
+    {
+      "id": 4,
+      "name": "Widget Four"
+    }
+  ]
+}

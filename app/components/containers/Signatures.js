@@ -1,0 +1,1 @@
+export const Signatures = new Mongo.Collection('posts');
